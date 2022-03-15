@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Simple_login from './Simple_login';
+import Map from "./Map"
+import { Filter } from './Filter';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Simple_login/>
+    {/* <Map /> */}
+    <Filter/>
   </React.StrictMode>,
   document.getElementById('root')
 );
